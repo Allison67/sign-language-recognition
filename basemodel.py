@@ -1,21 +1,17 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import numpy as np 
+import pandas as pd 
 import json
 import os
 import shutil
-
 from sklearn.model_selection import train_test_split
-
 from tensorflow import keras
 from imutils import paths
-
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import pandas as pd
 import numpy as np
 import cv2
 import os
-
 from keras.layers import Activation
 from keras.layers import Dropout
 from keras.layers import Dense
@@ -45,9 +41,7 @@ def get_videos_ids(json_list):
 
 #function to check if the video id is available in the dataset
 #and return the viedos ids and url or any other featrue of the current instance
-
 def get_json_features(json_list):
-
     videos_ids = []
     videos_urls = []
     videos_bbox = []
@@ -59,7 +53,6 @@ def get_json_features(json_list):
     videos_split = []
     videos_variation_id = []
     for ins in json_list:
-
         video_id = ins['video_id']
         video_url = ins['url']
         video_bbox = ins['bbox']
@@ -94,6 +87,7 @@ for row in wlasl_df.iterrows():
     df = pd.DataFrame(list(zip(word, ids, urls, bbox, fps, frame_end, frame_start, signer_id, source, split, variation_id)), columns=features_df.columns)
     features_df = features_df.append(df, ignore_index=True)
 
+
 # take a subset of the full data using nslt_ file
 
 # Load the JSON data from the file
@@ -111,9 +105,6 @@ print(df_100.head())
 
 
 merged_df = pd.merge(df_100, features_df, left_on='ID', right_on='video_id')
-
-# Display the merged DataFrame
-merged_df
 
 
 # split data into test train validation
@@ -154,14 +145,10 @@ generateDatasplitFolder(val['video_id'], 'val/')
 # test data
 generateDatasplitFolder(test['video_id'], 'test/')
 
-import random
-import math
-
 # Constants
 IMG_SIZE = 256  #frame size after resizing
 SEQUENCE_LENGTH = 20
 CROP_SIZE = 224
-
 
 def resize_frame(frame, min_size=256):
     h, w = frame.shape[:2]
