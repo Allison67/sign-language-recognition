@@ -16,7 +16,7 @@ Our project targets the development of a deep learning-based tool to recognize A
 
 Download the dataset from [WLASL (World Level American Sign Language) Video | Kaggle](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
 
-Our project utilizes the WLASL-100 dataset(Li et al., 2020). This dataset is composed of 100 distinct ASL classes and is pre-divided into training and validation sets. The training set includes 748 videos and the validation set includes 165 videos.
+Our project utilizes the WLASL-100 dataset. This dataset is composed of 100 distinct ASL classes and is pre-divided into training and validation sets. The training set includes 748 videos and the validation set includes 165 videos.
 
 ## Environment setup
 
