@@ -25,3 +25,23 @@ Install dependencies with `pip`:
 ```
 pip install -r requirements.txt
 ```
+
+## Training & Evaluation
+
+## Result
+
+### Base Model
+
+### Hyperparameter Tuning for Base Model
+
+### Post-tuning Base Model
+
+### I3D Model
+
+### Hyperparameter Tuning for I3D Model
+
+### Post-tuning I3D Model
+
+## Observation
+
+## Future Study Direction
