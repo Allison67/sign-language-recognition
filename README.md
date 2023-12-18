@@ -26,22 +26,23 @@ Install dependencies with `pip`:
 pip install -r requirements.txt
 ```
 
-## Training & Evaluation
-
 ## Result
 
 ### Base Model
+![Base model evaluation result](https://github.com/Allison67/sign-language-recognition/blob/main/base_model/basemodel_performance.png)
 
 ### Hyperparameter Tuning for Base Model
 
 ### Post-tuning Base Model
 
 ### I3D Model
+![I3D evaluation result](https://github.com/Allison67/sign-language-recognition/blob/main/i3d/i3d_performance_without_tuning.png)
 
 ### Hyperparameter Tuning for I3D Model
 
 ### Post-tuning I3D Model
 
-## Observation
-
 ## Future Study Direction
+* Expand dataset for richer sign language patterns.
+* Explore different model architectures.
+* Improve computational efficiency for practical use.
