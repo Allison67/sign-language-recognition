@@ -26,6 +26,11 @@ Install dependencies with `pip`:
 pip install -r requirements.txt
 ```
 
+* basemodel.py: The script for training the base model (including data pre-processing).
+* basemodel_tuning.py: The script for hyperparameter tuning of the base model.
+* i3d_training.py: The script for training the I3D model (including data pre-processing).
+* i3d_tuning.py: The script for hyperparameter tuning of I3D model with various batch size and learning rate.
+
 ## Result
 
 ### Base Model
