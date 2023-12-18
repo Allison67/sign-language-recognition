@@ -29,6 +29,7 @@ pip install -r requirements.txt
 ## Result
 
 ### Base Model
+
 ![Base model evaluation result](https://github.com/Allison67/sign-language-recognition/blob/main/base_model/basemodel_performance.png)
 
 ### Hyperparameter Tuning for Base Model
@@ -36,13 +37,23 @@ pip install -r requirements.txt
 ### Post-tuning Base Model
 
 ### I3D Model
+
 ![I3D evaluation result](https://github.com/Allison67/sign-language-recognition/blob/main/i3d/i3d_performance_without_tuning.png)
 
 ### Hyperparameter Tuning for I3D Model
 
+|              | lr=0.01 | lr=0.001 | lr=0.0001 |
+| ------------ | ------- | -------- | --------- |
+| batch_size=4 | 0.02    | 0.31     | 0.11      |
+| batch_size=6 | 0.02    | 0.27     | 0.04      |
+| batch_size=8 | 0.03    | 0.29     | 0.03      |
+
+**Table 2:** Hyperparameter Tuning Result for I3D (Validation Accuracy).
+
 ### Post-tuning I3D Model
 
 ## Future Study Direction
-* Expand dataset for richer sign language patterns.
-* Explore different model architectures.
-* Improve computational efficiency for practical use.
+
+- Expand dataset for richer sign language patterns.
+- Explore different model architectures.
+- Improve computational efficiency for practical use.
