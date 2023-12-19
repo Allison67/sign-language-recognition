@@ -52,7 +52,7 @@ The validation accuracy for the I3D model before hyperparameter tuning is 51%.
 ### Hyperparameter Tuning for I3D Model
 
 ![hyperparameter tuning for i3d model](https://github.com/Allison67/sign-language-recognition/blob/main/i3d/hyperparameter_tuning_i3d.png)
-We obtained the best configuration as batch size = 8 and learning rate = 0.001.
+We obtained the best configuration as batch size = 4 and learning rate = 0.001.
 
 |              | lr=0.01 | lr=0.001 | lr=0.0001 |
 | ------------ | ------- | -------- | --------- |
