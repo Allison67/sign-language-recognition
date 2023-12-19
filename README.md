@@ -10,6 +10,8 @@ Our project targets the development of a deep learning-based tool to recognize A
 
 ### Base Model
 
+<img src="base_model/base_model_architecture.jpeg" alt="Architecture of base model" height="300">
+
 ### I3D Model
 
 <img width="857" alt="image" src="https://github.com/Allison67/sign-language-recognition/assets/96998345/cc1321b3-c5bf-4939-8ed2-03a8cf2594a7">
