@@ -54,7 +54,7 @@ We obtained the best configuration as batch size = 8 and learning rate = 0.001.
 | batch_size=6 | 0.02    | 0.27     | 0.04      |
 | batch_size=8 | 0.03    | 0.29     | 0.03      |
 
-**Table 2:** Hyperparameter Tuning Result for I3D (Validation Accuracy).
+**Table:** Hyperparameter Tuning Result for I3D (Validation Accuracy).
 
 ### Post-tuning I3D Model
 ![performance of i3d after tuning](https://github.com/Allison67/sign-language-recognition/blob/main/i3d/I3D_after_tuning.png)
