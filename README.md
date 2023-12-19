@@ -12,6 +12,7 @@ Our project targets the development of a deep learning-based tool to recognize A
 
 ### I3D Model
 
+
 ## Dataset
 
 Download the dataset from [WLASL (World Level American Sign Language) Video | Kaggle](https://www.kaggle.com/datasets/risangbaskoro/wlasl-processed)
@@ -64,3 +65,9 @@ The validation accuracy for the I3D model after hyperparameter tuning is 61% now
 - Expand dataset for richer sign language patterns.
 - Explore different model architectures.
 - Improve computational efficiency for practical use.
+
+## References
+* [Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset](https://arxiv.org/pdf/1705.07750.pdf)
+* [Word-level Deep Sign Language Recognition from Video: A New Large-scale Dataset and Methods Comparison](https://arxiv.org/abs/1910.11006)
+* [WLASL Dataset](https://github.com/dxli94/WLASL)
+
